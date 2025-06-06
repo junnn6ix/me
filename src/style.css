@@ -208,6 +208,7 @@ ion-icon {
 
 .footerContainer p {
   color: white;
+  font-size: 0.75rem;
 }
 
 @media only screen and (max-width: 600px) {
@@ -221,7 +222,7 @@ ion-icon {
   }
 
   .name {
-    font-size: 2.3rem;
+    font-size: 2.4rem;
   }
 
   .mid {
@@ -260,7 +261,7 @@ ion-icon {
   }
 
   .mid .line1 .text h2 {
-    font-size: 1.2rem;
+    font-size: 1.4rem;
   }
 
   .line2 {
@@ -298,7 +299,7 @@ ion-icon {
   } */
 
   .mid .line2 .text h2 {
-    font-size: 1.3rem;
+    font-size: 1.4rem;
   }
 
   .end {
@@ -326,7 +327,7 @@ ion-icon {
   }
 
   .linkSocmed a {
-    font-size: 1.2rem;
+    font-size: 1.3rem;
   }
 
   ion-icon {
