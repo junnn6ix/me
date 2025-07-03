@@ -9,7 +9,7 @@ export const Home = () => {
     <>
       <Aurora
         colorStops={["#3A29FF", "#FF94B4", "#001b94"]}
-        blend={1.0}
+        blend={1.5}
         amplitude={1.5}
         speed={0.2}
         className=" z-20 min-h-screen flex items-center justify-start relative mx-auto"
