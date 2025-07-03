@@ -1,0 +1,96 @@
+@import "tailwindcss";
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Space Grotesk", sans-serif;
+  letter-spacing: -0.85px;
+  background: #000;
+  color: #f3f4f6;
+}
+
+.font-primary {
+  font-family: "Space Grotesk", sans-serif;
+  letter-spacing: -1.76px;
+}
+
+.font-product {
+  font-family: "Product Sans", sans-serif;
+  letter-spacing: 0;
+}
+
+@layer utilities {
+  @keyframes blink {
+    0%,
+    100% {
+      opacity: 1;
+    }
+
+    50% {
+      opacity: 0;
+    }
+  }
+
+  @keyframes loading {
+    0% {
+      transform: translateX(-100%);
+    }
+
+    100% {
+      transform: translateX(250%);
+    }
+  }
+
+  .animate-loading-bar {
+    animation: loading 0.85s ease infinite;
+  }
+
+  .animate-blink {
+    animation: blink 0.5s step-end infinite;
+  }
+}
+
+/* ShinyText */
+.shiny-text {
+  color: #364153a4; /* Adjust this color to change intensity/style */
+  background: linear-gradient(
+    120deg,
+    rgba(49, 53, 255, 0) 40%,
+    rgba(76, 0, 255, 1) 70%,
+    rgba(100, 0, 100, 0) 60%
+  );
+  background-size: 200% 100%;
+  -webkit-background-clip: text;
+  background-clip: text;
+  display: inline-block;
+  animation: shine 5s linear infinite;
+}
+
+@keyframes shine {
+  0% {
+    background-position: 100%;
+  }
+  100% {
+    background-position: -100%;
+  }
+}
+
+.shiny-text.disabled {
+  animation: none;
+}
+
+.ls-normal {
+  letter-spacing: normal;
+}
+
+.reveal {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 0.75s ease, transform 0.75s ease;
+}
+
+.reveal.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
