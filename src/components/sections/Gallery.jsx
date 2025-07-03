@@ -6,7 +6,7 @@ export const Gallery = () => {
   const items = [
     {
       id: "1",
-      img: "https://raw.githubusercontent.com/junnn6ix/src/refs/heads/main/assets/img1.jpg",
+      img: "https://p1-image.cdn-aihelp.net/FileService/UserFile/0/202507/20250703220427414c7411de4e4.jpg",
       url: "https://example.com/one",
       height: 400,
     },
