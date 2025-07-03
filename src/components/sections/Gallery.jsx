@@ -12,7 +12,7 @@ export const Gallery = () => {
     },
     {
       id: "2",
-      img: "https://raw.githubusercontent.com/junnn6ix/src/refs/heads/main/assets/img2.jpg",
+      img: "https://gmbr.web.id/35430",
       url: "https://example.com/one",
       height: 200,
     },
