@@ -8,7 +8,7 @@ export const Home = () => {
   return (
     <>
       <Aurora
-        colorStops={["#3A29FF", "#FF94B4", "#FF3232"]}
+        colorStops={["#3A29FF", "#FF94B4", "#001b94"]}
         blend={1.0}
         amplitude={1.5}
         speed={0.2}
@@ -16,7 +16,7 @@ export const Home = () => {
       />
       <section
         id="home"
-        className="pt-25 py-35 md:pt-15 md:pb-35 lg:pt-20 flex items-center justify-start relative mx-auto mb-10">
+        className="max-h-screen pt-45 pb-40 md:pt-20 md:pb-35 lg:pt-30 lg:pb-40 relative mx-auto flex items-center mb-20">
         <div className="text-center z-10 px-4 mx-auto">
           <div className="flex flex-col items-center justify-center gap-2 text-center mx-auto">
             {/* <h1 className=" font-primary text-5xl md:text-7xl font-bold mb-6 bg-gradient-to-r from-blue-900 to-blue-300 bg-clip-text text-transparent leading-right">
