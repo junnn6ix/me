@@ -1,4 +1,5 @@
 import { useState } from "react";
+// import { Analytics } from "@vercel/analytics/next";
 import "./App.css";
 import { LoadingScreen } from "./components/LoadingScreen";
 import { Navbar } from "./components/Navbar";
@@ -9,6 +10,7 @@ import { Projects } from "./components/sections/Project";
 import { Gallery } from "./components/sections/Gallery";
 import { Contacts } from "./components/sections/Contact";
 import "./index.css";
+import { Analytics } from "@vercel/analytics/react";
 
 function App() {
   const [isLoaded, setIsLoaded] = useState(false);
@@ -16,6 +18,7 @@ function App() {
 
   return (
     <>
+      <Analytics />
       {!isLoaded && <LoadingScreen onComplete={() => setIsLoaded(true)} />}
       <div
         className={`min-h-screen transition-opacity duration-700 ${

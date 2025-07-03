@@ -1,9 +1,9 @@
 .card-spotlight {
   position: relative;
   border-radius: 1.5rem;
-  border: 1px solid #222;
-  background-color: #111;
-  padding: 2rem;
+  border: 1px solid rgba(58, 41, 255, 0.2);
+  background-color: #0d1013;
+  padding: 14px;
   overflow: hidden;
   --mouse-x: 50%;
   --mouse-y: 50%;
