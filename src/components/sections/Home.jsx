@@ -16,7 +16,7 @@ export const Home = () => {
       />
       <section
         id="home"
-        className="pt-25 py-35 md:pt-15 md:pb-35 lg:pt-20 flex items-center justify-start relative mx-auto">
+        className="pt-25 py-35 md:pt-15 md:pb-35 lg:pt-20 flex items-center justify-start relative mx-auto mb-10">
         <div className="text-center z-10 px-4 mx-auto">
           <div className="flex flex-col items-center justify-center gap-2 text-center mx-auto">
             {/* <h1 className=" font-primary text-5xl md:text-7xl font-bold mb-6 bg-gradient-to-r from-blue-900 to-blue-300 bg-clip-text text-transparent leading-right">
