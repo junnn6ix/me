@@ -20,6 +20,6 @@ If you are developing a production application, we recommend using TypeScript wi
 
 <h2>Components</h2>
 Profile Card, ShinyText, Rotating Text, Spotlight Card, Masonry from Reacbits
+<br/>
 
-
-<a href="https://www.instagram.com/neckjun__?igsh=MXVucjNjY3VkNno1ZA==">Follow Me<a/>
+<a href="https://www.instagram.com/neckjun__?igsh=MXVucjNjY3VkNno1ZA==" target="_blank">Follow Me<a/>
