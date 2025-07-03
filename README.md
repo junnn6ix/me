@@ -22,4 +22,4 @@ If you are developing a production application, we recommend using TypeScript wi
 Profile Card, ShinyText, Rotating Text, Spotlight Card, Masonry from Reacbits
 
 
-<a href="https://www.instagram.com/neckjun__?igsh=MXVucjNjY3VkNno1ZA==">Follow Me</>
+<a href="https://www.instagram.com/neckjun__?igsh=MXVucjNjY3VkNno1ZA==">Follow Me<a/>
