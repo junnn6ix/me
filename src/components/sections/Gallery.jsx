@@ -12,7 +12,7 @@ export const Gallery = () => {
     },
     {
       id: "2",
-      img: "https://gmbr.web.id/35430",
+      img: "https://p1-image.cdn-aihelp.net/FileService/UserFile/0/202507/2025070322155668233b63bfba4.jpg",
       url: "https://example.com/one",
       height: 200,
     },
