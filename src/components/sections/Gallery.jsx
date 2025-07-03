@@ -7,7 +7,7 @@ export const Gallery = () => {
     {
       id: "1",
       img: "https://p1-image.cdn-aihelp.net/FileService/UserFile/0/202507/20250703220427414c7411de4e4.jpg",
-      url: "https://example.com/one",
+      url: "https://www.instagram.com/p/DJeR42xvtTr/?igsh=MTZ6Y2l4OXJ2OXpudw==",
       height: 400,
     },
     {
