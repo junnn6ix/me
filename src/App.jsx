@@ -11,6 +11,7 @@ import { Gallery } from "./components/sections/Gallery";
 import { Contacts } from "./components/sections/Contact";
 import "./index.css";
 import { Analytics } from "@vercel/analytics/react";
+import { SpeedInsights } from "@vercel/speed-insights/react";
 
 function App() {
   const [isLoaded, setIsLoaded] = useState(false);
@@ -19,6 +20,7 @@ function App() {
   return (
     <>
       <Analytics />
+      <SpeedInsights />
       {!isLoaded && <LoadingScreen onComplete={() => setIsLoaded(true)} />}
       <div
         className={`min-h-screen transition-opacity duration-700 ${
