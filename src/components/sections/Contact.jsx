@@ -1,6 +1,7 @@
 /* eslint-disable no-unused-vars */
 import { useState } from "react";
 import ShinyText from "../../../components/ShinyText/ShinyText";
+import SpotlightCard from "../../../components/SpotlightCard/SpotlightCard";
 import { RevealOnScroll } from "../RevealOnScroll";
 import emailjs from "emailjs-com";
 import { Footer } from "../Footer";
@@ -33,7 +34,7 @@ export const Contacts = () => {
     <>
       <section
         id="contact"
-        className="min-h-screen flex items-center justify-center mt-200 md:mt-100 lg:mt-50 px-8 md:px-12">
+        className="min-h-screen flex items-center justify-center mt-200 md:mt-150 lg:mt-80 px-8 md:px-12 mb-10">
         <RevealOnScroll>
           <div className="max-w-3xl mx-auto px-4">
             <ShinyText
@@ -49,6 +50,61 @@ export const Contacts = () => {
                 me and let's be friends! I look forward to receiving your
                 message!
               </p>
+
+              <SpotlightCard
+                className="custom-spotlight-card overflow-hidden max-w-full cursor-pointer my-6 flex items-center justify-center p-4 gap-4"
+                spotlightColor="rgba(0, 229, 255, 0.2)">
+                <div className="w-[100%] p-2 flex items-start flex-col gap-1 justify-center">
+                  <h3 className="font-bold text-xl ls-normal mb-3">
+                    Ahmad Fawazi
+                  </h3>
+                  <div className="w-full flex items-center gap-6 md:gap-10">
+                    <div className="w-30 md:w-40 bg-black rounded-xl p-2 relative">
+                      <img
+                        src="https://api.gmbr.web.id/image/35499"
+                        alt=""
+                        className="w-[100%]"
+                      />
+                      <div className="absolute top-[40%] l-50 z-20 flex items-start flex-col gap-1.5 justify-center">
+                        <h3 className="text-lg md:text-xl font-bold">
+                          Tasikmalaya
+                        </h3>
+                        <p className="text-sm md:text-lg font-product">
+                          Domicile
+                        </p>
+                      </div>
+                    </div>
+                    <div className="flex flex-col gap-2 md:gap-4">
+                      <div className="flex items-center gap-6">
+                        <i className="ri-phone-line text-lg md:text-xl"></i>
+                        <h3 className="font-product text-md md:text-lg lg:text-xl font-bold">
+                          +62812********
+                        </h3>
+                      </div>
+                      <div className="flex items-center gap-6">
+                        <i className="ri-mail-line text-lg md:text-xl"></i>
+                        <h3 className="font-product text-md md:text-lg lg:text-xl font-bold">
+                          jjunnnsowden@gmail.com
+                        </h3>
+                      </div>
+                      <div className="flex items-center gap-6">
+                        <i className="ri-github-fill text-lg md:text-xl"></i>
+
+                        <h3 className="font-product text-md md:text-lg lg:text-xl font-bold">
+                          junnn6ix
+                        </h3>
+                      </div>
+                      <div className="flex items-center gap-6">
+                        <i className="ri-linkedin-fill text-lg md:text-xl"></i>
+
+                        <h3 className="font-product text-md md:text-lg lg:text-xl font-bold">
+                          Ahmad Fawazi
+                        </h3>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </SpotlightCard>
 
               <div className="mt-6">
                 <h2 className="font-bold mx-auto text-xl md:text-2xl text-gray-700 mb-6">
