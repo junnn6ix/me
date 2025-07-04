@@ -41,7 +41,7 @@ export const About = () => {
                     // miniAvatarUrl="/assets/img/profile_square.jpg"
                     // iconUrl="/assets/img/profile-square.jpg"
                     showUserInfo={true}
-                    enableTilt={true}
+                    enableTilt={false}
                     onContactClick={() =>
                       window.open(
                         "https://instagram.com/neckjun__?igsh=MXVucjNjY3VkNno1ZA==",
