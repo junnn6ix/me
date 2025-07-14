@@ -7,7 +7,7 @@ export const Footer = () => {
             <div className="flex items-center gap-2">
               <img
                 className="w-[28px]"
-                src="https://raw.githubusercontent.com/junnn6ix/src/refs/heads/main/assets/logo.svg"
+                src="https://api.gmbr.web.id/image/35587"
                 alt=""
               />
               <a

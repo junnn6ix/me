@@ -29,7 +29,7 @@ export const Projects = () => {
                 spotlightColor="rgba(0, 229, 255, 0.2)">
                 <img
                   className="w-[100%] rounded-xl mb-4"
-                  src="https://raw.githubusercontent.com/junnn6ix/src/refs/heads/main/assets/dummy1.jpg"
+                  src="https://api.gmbr.web.id/image/35590"
                   alt=""
                 />
                 <div className="">
@@ -65,7 +65,7 @@ export const Projects = () => {
                 spotlightColor="rgba(0, 229, 255, 0.2)">
                 <img
                   className="w-[100%] rounded-xl mb-4"
-                  src="https://raw.githubusercontent.com/junnn6ix/src/refs/heads/main/assets/dummy2.jpg"
+                  src="https://api.gmbr.web.id/image/35591"
                   alt=""
                 />
                 <div className="">
@@ -101,7 +101,7 @@ export const Projects = () => {
                 spotlightColor="rgba(0, 229, 255, 0.2)">
                 <img
                   className="w-[100%] rounded-xl mb-4"
-                  src="https://raw.githubusercontent.com/junnn6ix/src/refs/heads/main/assets/dummy3.jpg"
+                  src="https://api.gmbr.web.id/image/35592"
                   alt=""
                 />
                 <div className="">
@@ -137,7 +137,7 @@ export const Projects = () => {
                 spotlightColor="rgba(0, 229, 255, 0.2)">
                 <img
                   className="w-[100%] rounded-xl mb-4"
-                  src="https://raw.githubusercontent.com/junnn6ix/src/refs/heads/main/assets/dummy1.jpg"
+                  src="https://api.gmbr.web.id/image/35590"
                   alt=""
                 />
                 <div className="">

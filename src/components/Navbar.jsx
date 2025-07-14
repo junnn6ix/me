@@ -10,7 +10,7 @@ export const Navbar = () => {
           <div className="logo flex items-center justify-center gap-2">
             <img
               className="w-[34px]"
-              src="https://raw.githubusercontent.com/junnn6ix/src/5af71f66ccac973bd3970ab62167d3f5c78efc67/assets/logo.svg"
+              src="https://api.gmbr.web.id/image/35587"
               alt=""
             />
             <a

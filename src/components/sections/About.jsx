@@ -20,9 +20,8 @@ export const About = () => {
 
             <div className="">
               <p className="font-product mx-auto text-sm md:text-xl text-gray-300">
-                They can call me Ajun, Jun, or Karbo or whatever, you can call
-                me anything you want. I'm 20 years young, and my birthday is on
-                July 6th. I'm currently a sixth-semester student studying
+                People call me Ajun, Jun, or Karbo or whatever, you can call
+                me anything you want. I'm 20 YO. I'm currently a sixth-semester student studying
                 Informatics Engineering at Sekolah Tinggi Teknologi Cipasung
                 (STTC) in Tasikmalaya. I'm also a proud resident of Tasikmalaya!
               </p>
@@ -35,8 +34,8 @@ export const About = () => {
                     handle="neckjun__"
                     status="Sleep"
                     contactText="Follow Me"
-                    avatarUrl="https://raw.githubusercontent.com/junnn6ix/src/refs/heads/main/assets/profile.png"
-                    miniAvatarUrl="https://raw.githubusercontent.com/junnn6ix/src/refs/heads/main/assets/profile-square.jpg"
+                    avatarUrl="https://api.gmbr.web.id/image/35588"
+                    miniAvatarUrl="https://api.gmbr.web.id/image/35589"
                     // avatarUrl="/assets/img/profile.png"
                     // miniAvatarUrl="/assets/img/profile_square.jpg"
                     // iconUrl="/assets/img/profile-square.jpg"
@@ -51,8 +50,8 @@ export const About = () => {
                   />
                 </div>
                 <div className="w-full">
-                  <h2 className="font-bold mx-auto text-sm md:text-xl text-gray-300 mb-3">
-                    Things I passionate about
+                  <h2 className="font-bold mx-auto text-sm md:text-xl text-gray-300 mb-4">
+                    Things I like
                   </h2>
                   <p className="mb-6 font-product text-gray-400">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit.
