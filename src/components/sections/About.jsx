@@ -32,7 +32,7 @@ export const About = () => {
                 <div className="">
                   <ProfileCard
                     name="Ahmad Fawazi"
-                    title="Web Developer"
+                    title="Not a Web Developer"
                     handle="neckjun__"
                     status="Sleep"
                     contactText="Follow Me"

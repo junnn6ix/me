@@ -31,11 +31,12 @@ export const Home = () => {
             />
             <RotatingText
               texts={[
-                "Web Developer",
+                "Not WebDev",
                 "UI/UX Lover",
                 "Informatics",
                 "Engineer",
-                "Hello World",
+                "HEHEHE",
+                "Nope",
               ]}
               mainClassName="-mt-4 font-primary font-bold text-5xl md:text-7xl text-white overflow-hidden justify-center"
               staggerFrom={"last"}
