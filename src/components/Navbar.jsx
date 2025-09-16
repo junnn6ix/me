@@ -10,12 +10,13 @@ export const Navbar = () => {
           <div className="logo flex items-center justify-center gap-2">
             <img
               className="w-[34px]"
-              src="https://api.gmbr.web.id/image/35587"
+              src="https://p1-image.cdn-aihelp.net/FileService/UserFile/0/202509/20250916004905658b9663bc5a7.jpg"
               alt=""
             />
             <a
               href="#"
-              className="md:text-2xl sm:text-xl font-bold text-white hover:text-purple-700/70 duration-300 transition-all ease-in-out">
+              className="md:text-2xl sm:text-xl font-bold text-white hover:text-purple-700/70 duration-300 transition-all ease-in-out"
+            >
               .jun
             </a>
           </div>
@@ -55,7 +56,8 @@ export const Navbar = () => {
             </a>
             <a
               href="https://instagram.com/neckjun__?igsh=MXVucjNjY3VkNno1ZA=="
-              target="_blank">
+              target="_blank"
+            >
               <i className="ri-instagram-line text-[24px] hover:text-purple-700/70 duration-300 transition-all ease-in-out "></i>
             </a>
           </div>
