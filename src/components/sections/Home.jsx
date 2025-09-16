@@ -31,11 +31,12 @@ export const Home = () => {
             />
             <RotatingText
               texts={[
-                "Not WebDev",
+                "Not a WebDev",
+                "Just Chill",
+                "HEHEHE",
                 "UI/UX Lover",
                 "Informatics",
                 "Engineer",
-                "HEHEHE",
                 "Nope",
               ]}
               mainClassName="-mt-4 font-primary font-bold text-5xl md:text-7xl text-white overflow-hidden justify-center"
