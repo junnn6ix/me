@@ -16,8 +16,7 @@ export const Home = () => {
       />
       <section
         id="home"
-        className="max-h-screen pt-35 pb-50 md:pt-15 md:pb-35 lg:pt-30 lg:pb-40 relative mx-auto flex items-center mb-50"
-      >
+        className="max-h-screen pt-35 pb-50 md:pt-15 md:pb-35 lg:pt-30 lg:pb-40 relative mx-auto flex items-center mb-50">
         <div className="text-center z-10 px-4 mx-auto">
           <div className="flex flex-col items-center justify-center gap-2 text-center mx-auto">
             {/* <h1 className=" font-primary text-5xl md:text-7xl font-bold mb-6 bg-gradient-to-r from-blue-900 to-blue-300 bg-clip-text text-transparent leading-right">
@@ -52,9 +51,8 @@ export const Home = () => {
           </div>
 
           <p className="text-center mx-auto font-product mt-6 w-[90%] md:w-[50%] text-sm md:text-xl text-gray-300">
-            an Informatics student at STT
-            Cipasung. Chilling on many things, like Web
-            programming, UI/UX, etc.
+            an Informatics student at STT Cipasung. Chilling on many things,
+            like Web Programming, UI/UX, etc.
           </p>
         </div>
       </section>
