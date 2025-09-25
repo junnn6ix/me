@@ -24,7 +24,7 @@ export const Home = () => {
             Hi, I'm Ahmad Fawazi!
           </h1> */}
             <ShinyText
-              text="Hi, I'm Ahmad Fawazi, I'm a"
+              text="Hi! Ahmad Fawazi here, im an"
               disabled={false}
               speed={3}
               className="text-blue-300 text-center font-primary font-bold mb-6 text-5xl md:text-7xl shiny-text w-[80%] md:w-[90%]"
@@ -52,9 +52,9 @@ export const Home = () => {
           </div>
 
           <p className="text-center mx-auto font-product mt-6 w-[90%] md:w-[50%] text-sm md:text-xl text-gray-300">
-            Usually called Jun. I'm currently studying Informatics at STT
-            Cipasung. I'm into a bunch of different things, like web
-            programming, UI/UX, and more.
+            an Informatics student at STT
+            Cipasung. Chilling on many things, like Web
+            programming, UI/UX, etc.
           </p>
         </div>
       </section>
