@@ -34,7 +34,7 @@ export const Contacts = () => {
     <>
       <section
         id="contact"
-        className="min-h-screen flex items-center justify-center mt-600 md:mt-350 lg:mt-260 px-8 md:px-12 mb-20">
+        className="min-h-screen flex items-center justify-center mt-1000 md:mt-350 lg:mt-260 px-8 md:px-12 mb-20">
         <RevealOnScroll>
           <div className="max-w-3xl mx-auto px-4">
             <ShinyText
