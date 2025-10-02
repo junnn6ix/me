@@ -12,8 +12,7 @@ export const Footer = () => {
               />
               <a
                 href="#"
-                className="md:text-xl sm:text-lg font-bold text-white hover:text-purple-700/70 duration-300 transition-all ease-in-out"
-              >
+                className="md:text-xl sm:text-lg font-bold text-white hover:text-purple-700/70 duration-300 transition-all ease-in-out">
                 .jun
               </a>
             </div>
@@ -49,16 +48,16 @@ export const Footer = () => {
           <div className="hidden md:flex items-center flex-col justify-center gap-4 md:w-[30%]">
             <h3 className="font-bold">Links</h3>
             <div className="flex items-center flex-wrap gap-3">
-              <a href="#">
+              <a href="https://github.com/junnn6ix" target="_blank">
                 <i className="ri-github-fill text-[24px] hover:text-purple-700/70 duration-300 transition-all ease-in-out"></i>
               </a>
-              <a href="#">
+              <a href="https://www.instagram.com/neckjun__" target="_blank">
                 <i className="ri-instagram-line text-[24px] hover:text-purple-700/70 duration-300 transition-all ease-in-out"></i>
               </a>
-              <a href="#">
-                <i className="ri-whatsapp-line text-[24px] hover:text-purple-700/70 duration-300 transition-all ease-in-out"></i>
+              <a href="https://www.linkedin.com/in/neckjss" target="_blank">
+                <i className="ri-linkedin-line text-[24px] hover:text-purple-700/70 duration-300 transition-all ease-in-out"></i>
               </a>
-              <a href="#">
+              <a href="mailto:jjunnnsowden@gmail.com" target="_blank">
                 <i className="ri-mail-line text-[24px] hover:text-purple-700/70 duration-300 transition-all ease-in-out"></i>
               </a>
             </div>

@@ -34,7 +34,7 @@ export const Contacts = () => {
     <>
       <section
         id="contact"
-        className="min-h-screen flex items-center justify-center mt-200 md:mt-150 lg:mt-80 px-8 md:px-12 mb-20">
+        className="min-h-screen flex items-center justify-center mt-450 md:mt-350 lg:mt-260 px-8 md:px-12 mb-20">
         <RevealOnScroll>
           <div className="max-w-3xl mx-auto px-4">
             <ShinyText
@@ -61,7 +61,7 @@ export const Contacts = () => {
                   <div className="w-full flex items-center gap-6 md:gap-10">
                     <div className="w-25 md:w-40 bg-black rounded-xl p-2 relative">
                       <img
-                        src="https://api.gmbr.web.id/image/35499"
+                        src="https://p1-image.cdn-aihelp.net/FileService/UserFile/0/202510/2025100202271319446e967e0d2.jpg"
                         alt=""
                         className="w-[100%]"
                       />
@@ -78,7 +78,7 @@ export const Contacts = () => {
                       <div className="flex items-center gap-4">
                         <i className="ri-phone-line text-lg md:text-xl"></i>
                         <h3 className="font-product text-sm md:text-lg lg:text-xl font-bold">
-                          +62812********
+                          +6281200000000
                         </h3>
                       </div>
                       <div className="flex items-center gap-4">
