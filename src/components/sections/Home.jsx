@@ -23,7 +23,7 @@ export const Home = () => {
             Hi, I'm Ahmad Fawazi!
           </h1> */}
             <ShinyText
-              text="Hi! Ahmad Fawazi here, im an"
+              text="Hi! Jun's here, im an"
               disabled={false}
               speed={3}
               className="text-blue-300 text-center font-primary font-bold mb-6 text-5xl md:text-7xl shiny-text w-[80%] md:w-[90%]"

@@ -12,10 +12,11 @@ import { Contacts } from "./components/sections/Contact";
 import "./index.css";
 import { Analytics } from "@vercel/analytics/react";
 import { SpeedInsights } from "@vercel/speed-insights/react";
+import { MobileMenu } from "./components/MobileMenu";
 
 function App() {
   const [isLoaded, setIsLoaded] = useState(false);
-  // const [menuOpen, setMenuOpen] = useState(false);
+  const [menuOpen, setMenuOpen] = useState(false);
 
   return (
     <>
@@ -26,8 +27,8 @@ function App() {
         className={`min-h-screen transition-opacity duration-700 ${
           isLoaded ? "opacity-100" : "opacity-0"
         } bg-black text-gray-100`}>
-        <Navbar />
-        {/* <MobileMenu menuOpen={menuOpen} setMenuOpen={setMenuOpen} /> */}
+        <Navbar menuOpen={menuOpen} setMenuOpen={setMenuOpen} />
+        <MobileMenu menuOpen={menuOpen} setMenuOpen={setMenuOpen} />
         <Home />
         <About />
         <Projects />
