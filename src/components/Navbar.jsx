@@ -22,7 +22,7 @@ export const Navbar = ({ menuOpen, setMenuOpen }) => {
           </div>
 
           <div
-            className="w-7 h-5 relative cursor-pointer z-40 text-xl flex md:hidden items-center justify-center"
+            className="w-7 h-5 relative cursor-pointer z-40 text-2xl flex md:hidden items-center justify-center"
             onClick={() => setMenuOpen((prev) => !prev)}>
             <i class="ri-menu-4-line"></i>
           </div>
