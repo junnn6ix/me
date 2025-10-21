@@ -51,6 +51,7 @@ export const About = () => {
                   />
                 </div>
                 <div className="w-full">
+                  ;
                   <h2 className="font-bold mx-auto text-sm md:text-xl text-gray-300 mb-6">
                     Things what I learn
                   </h2>

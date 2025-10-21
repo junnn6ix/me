@@ -12,7 +12,6 @@ import "./index.css";
 import { Analytics } from "@vercel/analytics/react";
 import { SpeedInsights } from "@vercel/speed-insights/react";
 import { MobileMenu } from "./components/MobileMenu";
-import { NavbarLg } from "./components/NavbarLg";
 
 function App() {
   const [isLoaded, setIsLoaded] = useState(false);
