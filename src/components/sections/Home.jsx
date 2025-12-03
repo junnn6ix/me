@@ -51,8 +51,8 @@ export const Home = () => {
           </div>
 
           <p className="text-center mx-auto font-product mt-6 w-[90%] md:w-[50%] text-sm md:text-xl text-gray-300">
-            an Informatics student at STT Cipasung. Chilling on many things,
-            like Web Programming, UI/UX, etc.
+            an Informatics student at STT Cipasung. Chilling on many things, Web
+            Programming, UI/UX, etc.
           </p>
         </div>
       </section>
