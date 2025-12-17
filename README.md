@@ -23,3 +23,7 @@ Profile Card, ShinyText, Rotating Text, Spotlight Card, Masonry from Reacbits
 <br/>
 
 <a href="https://www.instagram.com/neckjun__?igsh=MXVucjNjY3VkNno1ZA==" target="_blank">Follow Me<a/>
+
+<h2>Deployed Link</h2>
+<br/>
+<a href="https://junnn.vercel.app/" target="_blank">https://junnn.vercel.app/</a>
