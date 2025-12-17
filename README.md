@@ -27,3 +27,4 @@ Profile Card, ShinyText, Rotating Text, Spotlight Card, Masonry from Reacbits
 <h2>Deployed Link</h2>
 <br/>
 <a href="https://junnn.vercel.app/" target="_blank">https://junnn.vercel.app/</a>
+<br/>
