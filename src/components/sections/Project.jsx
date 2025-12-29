@@ -6,8 +6,7 @@ export const Projects = () => {
   return (
     <section
       id="projects"
-      className="min-h-screen flex items-center justify-center px-8 md:px-12"
-    >
+      className="min-h-screen flex items-center justify-center px-8 md:px-12">
       <RevealOnScroll>
         <div className="max-w-3xl mx-auto px-4">
           <ShinyText
@@ -20,15 +19,13 @@ export const Projects = () => {
           <div className="">
             <p className="font-product mx-auto text-sm md:text-xl text-gray-300">
               Here are some of the projects, which are currently underway or
-              have been completed. Only some projects are listed, others are
-              not.
+              have been completed.
             </p>
 
-            <div className="flex items-center flex-row flex-wrap justify-center gap-4 mt-8">
+            <div className="flex items-center flex-row flex-wrap  gap-4 mt-8">
               <SpotlightCard
                 className="custom-spotlight-card overflow-hidden w-[85vw] md:w-[360px] cursor-pointer"
-                spotlightColor="rgba(0, 229, 255, 0.2)"
-              >
+                spotlightColor="rgba(0, 229, 255, 0.2)">
                 <img
                   className="w-[100%] rounded-xl mb-4"
                   src="https://p1-image.cdn-aihelp.net/FileService/UserFile/0/202509/20250916005838162ae19cd51b2.jpg"
@@ -67,8 +64,7 @@ export const Projects = () => {
                     <a
                       href="https://junnn.vercel.app"
                       target="_blank"
-                      className="ls-normal font-bold py-2 px-4 bg-purple-600 border-1 border-purple-950/20 rounded-full ls-normal duration-300 transition-all ease-in-out hover:bg-purple-600/50 hover:border-purple-950"
-                    >
+                      className="ls-normal font-bold py-2 px-4 bg-purple-600 border-1 border-purple-950/20 rounded-full ls-normal duration-300 transition-all ease-in-out hover:bg-purple-600/50 hover:border-purple-950">
                       View Project
                     </a>
                   </div>
@@ -76,8 +72,7 @@ export const Projects = () => {
               </SpotlightCard>
               <SpotlightCard
                 className="custom-spotlight-card overflow-hidden w-[85vw] md:w-[360px] cursor-pointer"
-                spotlightColor="rgba(0, 229, 255, 0.2)"
-              >
+                spotlightColor="rgba(0, 229, 255, 0.2)">
                 <img
                   className="w-[100%] rounded-xl mb-4"
                   src="https://p1-image.cdn-aihelp.net/FileService/UserFile/0/202509/20250916005904678f6bcd79cf4.jpg"
@@ -95,24 +90,19 @@ export const Projects = () => {
                         y="0px"
                         width="22"
                         height="22"
-                        viewBox="0 0 48 48"
-                      >
+                        viewBox="0 0 48 48">
                         <path
                           fill="#e64a19"
-                          d="M26,17h-8c-3.866,0-7-3.134-7-7v0c0-3.866,3.134-7,7-7h8V17z"
-                        ></path>
+                          d="M26,17h-8c-3.866,0-7-3.134-7-7v0c0-3.866,3.134-7,7-7h8V17z"></path>
                         <path
                           fill="#7c4dff"
-                          d="M25,31h-7c-3.866,0-7-3.134-7-7v0c0-3.866,3.134-7,7-7h7V31z"
-                        ></path>
+                          d="M25,31h-7c-3.866,0-7-3.134-7-7v0c0-3.866,3.134-7,7-7h7V31z"></path>
                         <path
                           fill="#66bb6a"
-                          d="M18,45L18,45c-3.866,0-7-3.134-7-7v0c0-3.866,3.134-7,7-7h7v7C25,41.866,21.866,45,18,45z"
-                        ></path>
+                          d="M18,45L18,45c-3.866,0-7-3.134-7-7v0c0-3.866,3.134-7,7-7h7v7C25,41.866,21.866,45,18,45z"></path>
                         <path
                           fill="#ff7043"
-                          d="M32,17h-7V3h7c3.866,0,7,3.134,7,7v0C39,13.866,35.866,17,32,17z"
-                        ></path>
+                          d="M32,17h-7V3h7c3.866,0,7,3.134,7,7v0C39,13.866,35.866,17,32,17z"></path>
                         <circle cx="32" cy="24" r="7" fill="#29b6f6"></circle>
                       </svg>
                       {/* <p className="text-sm py-1 px-3">Figma</p> */}
@@ -133,8 +123,7 @@ export const Projects = () => {
                     <a
                       href="https://www.figma.com/proto/A6VMkennrAOcUGngb9z28M/HOMEEASE-UI-Prototype?page-id=0%3A1&node-id=222-2&viewport=106%2C171%2C0.25&t=ySbl3AOFPqRPsfQy-1&scaling=scale-down&content-scaling=fixed&starting-point-node-id=222%3A2"
                       target="_blank"
-                      className="ls-normal font-bold py-2 px-4 bg-purple-600 border-1 border-purple-950/20 rounded-full ls-normal duration-300 transition-all ease-in-out hover:bg-purple-600/50 hover:border-purple-950"
-                    >
+                      className="ls-normal font-bold py-2 px-4 bg-purple-600 border-1 border-purple-950/20 rounded-full ls-normal duration-300 transition-all ease-in-out hover:bg-purple-600/50 hover:border-purple-950">
                       View Project
                     </a>
                   </div>
@@ -142,8 +131,7 @@ export const Projects = () => {
               </SpotlightCard>
               <SpotlightCard
                 className="custom-spotlight-card overflow-hidden w-[85vw] md:w-[360px] cursor-pointer"
-                spotlightColor="rgba(0, 229, 255, 0.2)"
-              >
+                spotlightColor="rgba(0, 229, 255, 0.2)">
                 <img
                   className="w-[100%] rounded-xl mb-4"
                   src="https://p1-image.cdn-aihelp.net/FileService/UserFile/0/202509/20250916010300582bcb1a83f39.jpg"
@@ -161,24 +149,19 @@ export const Projects = () => {
                         y="0px"
                         width="22"
                         height="22"
-                        viewBox="0 0 48 48"
-                      >
+                        viewBox="0 0 48 48">
                         <path
                           fill="#e64a19"
-                          d="M26,17h-8c-3.866,0-7-3.134-7-7v0c0-3.866,3.134-7,7-7h8V17z"
-                        ></path>
+                          d="M26,17h-8c-3.866,0-7-3.134-7-7v0c0-3.866,3.134-7,7-7h8V17z"></path>
                         <path
                           fill="#7c4dff"
-                          d="M25,31h-7c-3.866,0-7-3.134-7-7v0c0-3.866,3.134-7,7-7h7V31z"
-                        ></path>
+                          d="M25,31h-7c-3.866,0-7-3.134-7-7v0c0-3.866,3.134-7,7-7h7V31z"></path>
                         <path
                           fill="#66bb6a"
-                          d="M18,45L18,45c-3.866,0-7-3.134-7-7v0c0-3.866,3.134-7,7-7h7v7C25,41.866,21.866,45,18,45z"
-                        ></path>
+                          d="M18,45L18,45c-3.866,0-7-3.134-7-7v0c0-3.866,3.134-7,7-7h7v7C25,41.866,21.866,45,18,45z"></path>
                         <path
                           fill="#ff7043"
-                          d="M32,17h-7V3h7c3.866,0,7,3.134,7,7v0C39,13.866,35.866,17,32,17z"
-                        ></path>
+                          d="M32,17h-7V3h7c3.866,0,7,3.134,7,7v0C39,13.866,35.866,17,32,17z"></path>
                         <circle cx="32" cy="24" r="7" fill="#29b6f6"></circle>
                       </svg>
                       {/* <p className="text-sm py-1 px-3">Figma</p> */}
@@ -202,8 +185,7 @@ export const Projects = () => {
                     <a
                       href="https://www.figma.com/proto/jlTC1VJEZTMyQAMBx3xH8V/TokoFinder-Agent?page-id=0%3A1&node-id=14-1200&viewport=8%2C-195%2C0.28&t=n5T9M10GpWojc5cF-1&scaling=min-zoom&content-scaling=fixed&starting-point-node-id=14%3A1200"
                       target="_blank"
-                      className="ls-normal font-bold py-2 px-4 bg-purple-600 border-1 border-purple-950/20 rounded-full ls-normal duration-300 transition-all ease-in-out hover:bg-purple-600/50 hover:border-purple-950"
-                    >
+                      className="ls-normal font-bold py-2 px-4 bg-purple-600 border-1 border-purple-950/20 rounded-full ls-normal duration-300 transition-all ease-in-out hover:bg-purple-600/50 hover:border-purple-950">
                       View Project
                     </a>
                   </div>
@@ -211,8 +193,45 @@ export const Projects = () => {
               </SpotlightCard>
               <SpotlightCard
                 className="custom-spotlight-card overflow-hidden w-[85vw] md:w-[360px] cursor-pointer"
-                spotlightColor="rgba(0, 229, 255, 0.2)"
-              >
+                spotlightColor="rgba(0, 229, 255, 0.2)">
+                <img
+                  className="w-[100%] rounded-xl mb-4"
+                  src="./projects/Project 5.png"
+                  alt=""
+                />
+                <div className="">
+                  <h3 className="font-bold text-xl ls-normal mb-3">
+                    ShadCN Admin Dashboard
+                  </h3>
+                  <div className="flex flex-row flex-wrap gap-2 mb-3">
+                    <div className="flex items-center py-1 px-2 bg-purple-950/10 border-1 border-purple-600 rounded-full ls-normal duration-300 transition-all ease-in-out hover:bg-purple-950/50 hover:border-purple-400">
+                      <img src="next.svg" alt="Next.js" className="h-[12px]" />
+                    </div>
+                    <div className="flex items-center py-1 px-2 bg-purple-950/10 border-1 border-purple-600 rounded-full ls-normal duration-300 transition-all ease-in-out hover:bg-purple-950/50 hover:border-purple-400">
+                      <img src="shadcn.svg" alt="Next.js" className="h-6" />
+                    </div>
+                    <div className="flex items-center py-1 px-2 bg-purple-950/10 border-1 border-purple-600 rounded-full ls-normal duration-300 transition-all ease-in-out hover:bg-purple-950/50 hover:border-purple-400">
+                      <img className="w-[24px]" src="tailwind-svg.svg" alt="" />
+                    </div>
+                  </div>
+                  <p className="font-product">
+                    An admin dashboard built with Next.js and ShadCN UI
+                    components. This project showcases a clean and responsive
+                    design, built for learning and fun purposes
+                  </p>
+                  <div className="mb-2 mt-6 text-right">
+                    <a
+                      href="https://jun-shadcn-dashboard.vercel.app/"
+                      target="_blank"
+                      className="ls-normal font-bold py-2 px-4 bg-purple-600 border-1 border-purple-950/20 rounded-full ls-normal duration-300 transition-all ease-in-out hover:bg-purple-600/50 hover:border-purple-950">
+                      View Project
+                    </a>
+                  </div>
+                </div>
+              </SpotlightCard>
+              <SpotlightCard
+                className="custom-spotlight-card overflow-hidden w-[85vw] md:w-[360px] cursor-pointer"
+                spotlightColor="rgba(0, 229, 255, 0.2)">
                 <img
                   className="w-[100%] rounded-xl mb-4"
                   src="https://p1-image.cdn-aihelp.net/FileService/UserFile/0/202509/20250916010018640cea57a6fca.jpg"
@@ -247,8 +266,7 @@ export const Projects = () => {
                   <div className="mb-2 mt-6 text-right">
                     <a
                       href="#"
-                      className="ls-normal font-bold py-2 px-4 bg-purple-600 border-1 border-purple-950/20 rounded-full ls-normal duration-300 transition-all ease-in-out hover:bg-purple-600/50 hover:border-purple-950 opacity-50 cursor-not-allowed"
-                    >
+                      className="ls-normal font-bold py-2 px-4 bg-purple-600 border-1 border-purple-950/20 rounded-full ls-normal duration-300 transition-all ease-in-out hover:bg-purple-600/50 hover:border-purple-950 opacity-50 cursor-not-allowed">
                       View Project
                     </a>
                   </div>

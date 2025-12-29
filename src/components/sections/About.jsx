@@ -35,7 +35,7 @@ export const About = () => {
                     handle="neckjun__"
                     status="Sleep"
                     contactText="Follow Me"
-                    avatarUrl="20250916_073917.png"
+                    avatarUrl="Profile.png"
                     miniAvatarUrl="https://p1-image.cdn-aihelp.net/FileService/UserFile/0/202509/202509160046461461491656bf6_lite.jpg"
                     // avatarUrl="/assets/img/profile.png"
                     // miniAvatarUrl="/assets/img/profile_square.jpg"
