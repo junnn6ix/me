@@ -148,7 +148,7 @@ export const Gallery = () => {
       url: "",
       height: 380,
     },
-    /*
+    
     {
       id: "25",
       img: "https://p1-image.cdn-aihelp.net/FileService/UserFile/0/202510/2025100202331331849f71b6c07_lite.jpg",
@@ -186,7 +186,7 @@ export const Gallery = () => {
       url: "",
       height: 200,
     },
-    */
+    
   ];
 
   return (
